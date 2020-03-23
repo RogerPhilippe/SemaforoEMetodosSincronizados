@@ -26,7 +26,7 @@ public class SemaphoreImplementationB {
 
             try {
 
-                for (int i = 1; i <= 5; i++) {
+                for (int i = 0; i <= 5; i++) {
 
                     System.out.println(name + " : is performing operation " + i
                             + ", available Semaphore permits : "

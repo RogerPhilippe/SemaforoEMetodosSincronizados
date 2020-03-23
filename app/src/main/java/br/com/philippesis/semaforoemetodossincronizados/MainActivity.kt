@@ -17,10 +17,15 @@ class MainActivity : AppCompatActivity() {
 
         val semBA = SemaphoreImplementationB("A")
 
+        println("Implementando semaforo A...")
+
         Thread(Runnable { semBA.run() }).start()
 
         val semBB = SemaphoreImplementationB("B")
 
         Thread(Runnable { semBB.run() }).start()
+
+        println("Implementando semaforo B...")
+
     }
 }

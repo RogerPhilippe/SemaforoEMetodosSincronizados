@@ -60,7 +60,6 @@ class PoolTest {
         val semaphoreImplementationBB = SemaphoreImplementationB("B")
 
         Thread(Runnable {
-
             semaphoreImplementationBA.run()
         })
 
